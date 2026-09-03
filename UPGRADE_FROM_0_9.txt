@@ -1,0 +1,47 @@
+ElectionLab 0.9 -> 0.10
+=========================
+
+1. CLOSE ElectionLab first.
+2. Extract the ElectionLab 0.10 ZIP somewhere temporary.
+3. Run Update_Existing_Install.bat from the extracted 0.10 folder.
+4. Enter the path to your existing ElectionLab installation.
+5. Reopen ElectionLab with your existing launcher.
+6. Confirm the lower-left build label says:
+   Pre-1.0 build 0.10 · reliable research + starter enrichment
+
+PRESERVED
+---------
+- portable_config.json and your selected external data root
+- .venv
+- Knowledge Vault database
+- custom profiles
+- profiles already enriched by web/OpenAI/local AI
+- cached portraits
+- campaigns / branches / polling history
+- saved election simulations
+- research caches and model data
+
+SAFE STARTER PROFILE UPGRADE
+----------------------------
+0.10 upgrades old built-in starter placeholders to the EL Starter Enrichment v2 pack.
+Only profiles that are STILL marked as built-in starter data are eligible.
+
+ElectionLab will NOT overwrite:
+- user-created/custom profiles
+- web/OpenAI/local-AI enriched profiles
+- locked profiles
+- profiles you deliberately deleted
+
+Cached portraits on starter profiles are preserved.
+
+OPENAI MODEL MIGRATION
+----------------------
+Current 0.12 builds preserve the chosen OpenAI model ID and normalize its casing
+before storage/provider use. For example, 'GPT-5.4-mini' is stored and sent as
+'gpt-5.4-mini'. ElectionLab no longer swaps a saved model ID to a different
+model during settings load.
+
+DEBUGGING RESEARCH / NARRATION
+------------------------------
+Research + Cache and manual AI Narrate now show a real loading overlay and write provider-attempt
+information to Logs/latest_session.log. Settings also has a new Test OpenAI button.

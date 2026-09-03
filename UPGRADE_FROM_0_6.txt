@@ -1,0 +1,37 @@
+ElectionLab 0.6 -> 0.7
+=======================
+
+1. Close ElectionLab completely.
+2. Extract ElectionLab_v0_7.zip.
+3. Run Update_Existing_Install.bat from the extracted 0.7 folder.
+4. Enter the path to your existing ElectionLab installation.
+5. Re-open ElectionLab with Run_ElectionLab.bat.
+6. The lower-left build label should read:
+   Pre-1.0 build 0.7 · live campaign map + data workspace
+
+Preserved by the updater
+------------------------
+- portable_config.json
+- .venv
+- ElectionLabData (when stored inside the app folder)
+- the external data-root path in Settings
+- Knowledge Vault profiles and tombstones
+- cached portraits
+- campaigns, branches, debates, conversations and state-opinion history
+- research cache
+- API/provider settings already stored by ElectionLab
+
+What changes automatically
+--------------------------
+- Existing campaign saves gain the new live-map presentation without rewriting their past state-agent history.
+- Campaign history narration remains Deterministic local unless you change it in Settings.
+- Existing portraits are not replaced. New portrait fitting affects how cached images are displayed.
+- Fetch All Missing Portraits now uses the same disambiguation logic as one-at-a-time fetching and keeps going after individual failures.
+
+Recommended quick check
+-----------------------
+1. Run Core_Self_Test.bat.
+2. Open Knowledge Vault and click the Name/Party/Source/Updated headers to test sorting.
+3. Open an active Campaign HQ, advance one turn, scroll to the Live campaign map and click a state.
+4. Move the mouse across several map states and confirm the old long Not Responding stall is gone/reduced.
+5. If desired, Settings -> Campaign history narration -> OpenAI - testing override, then use Narrate Latest Turn in Campaign HQ.

@@ -1,0 +1,30 @@
+ElectionLab 0.10 -> 0.11
+==========================
+
+1. CLOSE ElectionLab before updating.
+2. Extract the ElectionLab 0.11 ZIP somewhere temporary.
+3. Run Update_Existing_Install.bat from the extracted 0.11 folder.
+4. Enter your existing ElectionLab install folder when prompted.
+5. Launch ElectionLab from your existing install.
+
+The updater preserves:
+- portable_config.json
+- your selected ElectionLabData location
+- .venv
+- Knowledge Vault database
+- researched/custom profiles
+- cached portraits
+- campaign saves and branches
+- saved election simulations
+- provider/settings configuration
+
+What changes when you first launch 0.11:
+- ElectionLab opens to a traditional Main Menu instead of the global sidebar.
+- Old campaign saves are treated as the balanced Campaign rules preset.
+- New games can use Arcade, Campaign, Simulation, Analytical or Forecast Lab presets and can customize individual campaign rules.
+- Research + Cache / manual AI narration now show staged background-job progress.
+- The geographic map keeps the fast raster interaction layer but uses a repaired single-composite visual render.
+
+If Research + Cache still fails, let it finish/fail and then open:
+Settings -> Diagnostics -> Open Latest Session Log
+The 0.11 log records the individual research-job stages and provider path.

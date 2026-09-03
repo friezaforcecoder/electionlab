@@ -1,0 +1,29 @@
+ElectionLab 0.7 -> 0.8
+========================
+
+1. Close ElectionLab.
+2. Extract the ElectionLab_v0_8 folder.
+3. Run Update_Existing_Install.bat from the extracted 0.8 folder.
+4. Select your existing ElectionLab application folder when prompted.
+5. Start ElectionLab normally.
+6. Bottom-left should read:
+   Pre-1.0 build 0.8 · responsive simulation + result intelligence
+
+Preserved by the updater:
+- portable_config.json
+- .venv
+- your selected ElectionLabData root
+- Knowledge Vault + researched/custom profiles
+- cached portraits
+- campaign saves/branches/timelines
+- research cache
+- saved simulation results
+- provider/data settings
+
+What to test first:
+- Run Election: the app should stay responsive and show a progress/loading overlay.
+- Results map: hover/click Nevada and other states; map hit-testing no longer performs live SVG path containment.
+- Portraits: cached portraits should fill their boxes and have genuinely rounded corners.
+- Results: tipping point / closest state / battleground metrics should populate.
+- Save Result: save it, return to Dashboard, and double-click the saved election to reopen it.
+- Campaign HQ: War Room should update from live state-agent data.

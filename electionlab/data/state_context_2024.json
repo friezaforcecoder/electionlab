@@ -1,0 +1,1302 @@
+{
+  "snapshot_date": "2024",
+  "label": "2024 ACS 1-year state indicators",
+  "method_note": "Issue-priority scores are ElectionLab heuristics derived from official indicators; they are not public-opinion polling.",
+  "sources": [
+    {
+      "publisher": "U.S. Census Bureau",
+      "dataset": "2024 ACS 1-year B19013",
+      "metric": "Median household income",
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b19013.dat"
+    },
+    {
+      "publisher": "U.S. Census Bureau",
+      "dataset": "2024 ACS 1-year B25064",
+      "metric": "Median gross rent",
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b25064.dat"
+    },
+    {
+      "publisher": "U.S. Census Bureau",
+      "dataset": "2024 ACS 1-year B23025",
+      "metric": "Civilian labor force and unemployment",
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b23025.dat"
+    }
+  ],
+  "states": {
+    "AL": {
+      "name": "Alabama",
+      "ev": 9,
+      "dem_margin_2024": -30.5,
+      "median_household_income": 66659,
+      "median_gross_rent": 1077,
+      "acs_unemployment_rate": 4.23,
+      "rent_to_income_pct": 19.39,
+      "issue_priorities": {
+        "Economy": 0.717,
+        "Cost of living": 0.699,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "AK": {
+      "name": "Alaska",
+      "ev": 3,
+      "dem_margin_2024": -13.1,
+      "median_household_income": 95665,
+      "median_gross_rent": 1444,
+      "acs_unemployment_rate": 5.96,
+      "rent_to_income_pct": 18.11,
+      "issue_priorities": {
+        "Economy": 0.688,
+        "Cost of living": 0.533,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "AZ": {
+      "name": "Arizona",
+      "ev": 11,
+      "dem_margin_2024": -5.5,
+      "median_household_income": 81486,
+      "median_gross_rent": 1672,
+      "acs_unemployment_rate": 4.56,
+      "rent_to_income_pct": 24.62,
+      "issue_priorities": {
+        "Economy": 0.709,
+        "Cost of living": 0.812,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "AR": {
+      "name": "Arkansas",
+      "ev": 6,
+      "dem_margin_2024": -30.6,
+      "median_household_income": 62106,
+      "median_gross_rent": 982,
+      "acs_unemployment_rate": 3.82,
+      "rent_to_income_pct": 18.97,
+      "issue_priorities": {
+        "Economy": 0.681,
+        "Cost of living": 0.647,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "CA": {
+      "name": "California",
+      "ev": 54,
+      "dem_margin_2024": 20.6,
+      "median_household_income": 100149,
+      "median_gross_rent": 2104,
+      "acs_unemployment_rate": 5.93,
+      "rent_to_income_pct": 25.21,
+      "issue_priorities": {
+        "Economy": 0.745,
+        "Cost of living": 0.797,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "CO": {
+      "name": "Colorado",
+      "ev": 10,
+      "dem_margin_2024": 11.0,
+      "median_household_income": 97113,
+      "median_gross_rent": 1822,
+      "acs_unemployment_rate": 4.28,
+      "rent_to_income_pct": 22.51,
+      "issue_priorities": {
+        "Economy": 0.619,
+        "Cost of living": 0.739,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "CT": {
+      "name": "Connecticut",
+      "ev": 7,
+      "dem_margin_2024": 14.5,
+      "median_household_income": 96049,
+      "median_gross_rent": 1550,
+      "acs_unemployment_rate": 4.95,
+      "rent_to_income_pct": 19.37,
+      "issue_priorities": {
+        "Economy": 0.659,
+        "Cost of living": 0.61,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "DE": {
+      "name": "Delaware",
+      "ev": 3,
+      "dem_margin_2024": 14.7,
+      "median_household_income": 87534,
+      "median_gross_rent": 1530,
+      "acs_unemployment_rate": 5.11,
+      "rent_to_income_pct": 20.97,
+      "issue_priorities": {
+        "Economy": 0.706,
+        "Cost of living": 0.698,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "DC": {
+      "name": "District of Columbia",
+      "ev": 3,
+      "dem_margin_2024": 83.0,
+      "median_household_income": 109707,
+      "median_gross_rent": 1931,
+      "acs_unemployment_rate": 5.63,
+      "rent_to_income_pct": 21.12,
+      "issue_priorities": {
+        "Economy": 0.689,
+        "Cost of living": 0.682,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "FL": {
+      "name": "Florida",
+      "ev": 30,
+      "dem_margin_2024": -13.1,
+      "median_household_income": 77735,
+      "median_gross_rent": 1812,
+      "acs_unemployment_rate": 4.56,
+      "rent_to_income_pct": 27.97,
+      "issue_priorities": {
+        "Economy": 0.741,
+        "Cost of living": 0.853,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "GA": {
+      "name": "Georgia",
+      "ev": 16,
+      "dem_margin_2024": -2.2,
+      "median_household_income": 79991,
+      "median_gross_rent": 1506,
+      "acs_unemployment_rate": 4.69,
+      "rent_to_income_pct": 22.59,
+      "issue_priorities": {
+        "Economy": 0.736,
+        "Cost of living": 0.803,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "HI": {
+      "name": "Hawaii",
+      "ev": 4,
+      "dem_margin_2024": 23.0,
+      "median_household_income": 100745,
+      "median_gross_rent": 1942,
+      "acs_unemployment_rate": 3.38,
+      "rent_to_income_pct": 23.13,
+      "issue_priorities": {
+        "Economy": 0.53,
+        "Cost of living": 0.733,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "ID": {
+      "name": "Idaho",
+      "ev": 4,
+      "dem_margin_2024": -36.0,
+      "median_household_income": 81166,
+      "median_gross_rent": 1384,
+      "acs_unemployment_rate": 3.73,
+      "rent_to_income_pct": 20.46,
+      "issue_priorities": {
+        "Economy": 0.594,
+        "Cost of living": 0.668,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "IL": {
+      "name": "Illinois",
+      "ev": 19,
+      "dem_margin_2024": 10.9,
+      "median_household_income": 83211,
+      "median_gross_rent": 1322,
+      "acs_unemployment_rate": 5.13,
+      "rent_to_income_pct": 19.06,
+      "issue_priorities": {
+        "Economy": 0.699,
+        "Cost of living": 0.606,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "IN": {
+      "name": "Indiana",
+      "ev": 11,
+      "dem_margin_2024": -19.0,
+      "median_household_income": 71959,
+      "median_gross_rent": 1104,
+      "acs_unemployment_rate": 4.1,
+      "rent_to_income_pct": 18.41,
+      "issue_priorities": {
+        "Economy": 0.666,
+        "Cost of living": 0.596,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "IA": {
+      "name": "Iowa",
+      "ev": 6,
+      "dem_margin_2024": -13.2,
+      "median_household_income": 75501,
+      "median_gross_rent": 981,
+      "acs_unemployment_rate": 3.18,
+      "rent_to_income_pct": 15.59,
+      "issue_priorities": {
+        "Economy": 0.539,
+        "Cost of living": 0.482,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Healthcare",
+        "Cost of living"
+      ],
+      "data_confidence": 0.72
+    },
+    "KS": {
+      "name": "Kansas",
+      "ev": 6,
+      "dem_margin_2024": -16.0,
+      "median_household_income": 75514,
+      "median_gross_rent": 1079,
+      "acs_unemployment_rate": 3.67,
+      "rent_to_income_pct": 17.15,
+      "issue_priorities": {
+        "Economy": 0.572,
+        "Cost of living": 0.502,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "KY": {
+      "name": "Kentucky",
+      "ev": 8,
+      "dem_margin_2024": -30.5,
+      "median_household_income": 64526,
+      "median_gross_rent": 998,
+      "acs_unemployment_rate": 4.87,
+      "rent_to_income_pct": 18.56,
+      "issue_priorities": {
+        "Economy": 0.779,
+        "Cost of living": 0.638,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "LA": {
+      "name": "Louisiana",
+      "ev": 8,
+      "dem_margin_2024": -22.0,
+      "median_household_income": 60986,
+      "median_gross_rent": 1064,
+      "acs_unemployment_rate": 5.15,
+      "rent_to_income_pct": 20.94,
+      "issue_priorities": {
+        "Economy": 0.858,
+        "Cost of living": 0.795,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "ME": {
+      "name": "Maine",
+      "ev": 4,
+      "dem_margin_2024": 6.9,
+      "median_household_income": 76442,
+      "median_gross_rent": 1210,
+      "acs_unemployment_rate": 2.72,
+      "rent_to_income_pct": 18.99,
+      "issue_priorities": {
+        "Economy": 0.534,
+        "Cost of living": 0.587,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "MD": {
+      "name": "Maryland",
+      "ev": 10,
+      "dem_margin_2024": 28.5,
+      "median_household_income": 102905,
+      "median_gross_rent": 1721,
+      "acs_unemployment_rate": 4.35,
+      "rent_to_income_pct": 20.07,
+      "issue_priorities": {
+        "Economy": 0.571,
+        "Cost of living": 0.605,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "MA": {
+      "name": "Massachusetts",
+      "ev": 11,
+      "dem_margin_2024": 25.0,
+      "median_household_income": 104828,
+      "median_gross_rent": 1848,
+      "acs_unemployment_rate": 4.07,
+      "rent_to_income_pct": 21.15,
+      "issue_priorities": {
+        "Economy": 0.552,
+        "Cost of living": 0.661,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "MI": {
+      "name": "Michigan",
+      "ev": 15,
+      "dem_margin_2024": -1.4,
+      "median_household_income": 72389,
+      "median_gross_rent": 1168,
+      "acs_unemployment_rate": 4.5,
+      "rent_to_income_pct": 19.36,
+      "issue_priorities": {
+        "Economy": 0.708,
+        "Cost of living": 0.661,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "MN": {
+      "name": "Minnesota",
+      "ev": 10,
+      "dem_margin_2024": 4.2,
+      "median_household_income": 87117,
+      "median_gross_rent": 1291,
+      "acs_unemployment_rate": 3.72,
+      "rent_to_income_pct": 17.78,
+      "issue_priorities": {
+        "Economy": 0.508,
+        "Cost of living": 0.478,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Healthcare",
+        "Cost of living"
+      ],
+      "data_confidence": 0.72
+    },
+    "MS": {
+      "name": "Mississippi",
+      "ev": 6,
+      "dem_margin_2024": -22.0,
+      "median_household_income": 59127,
+      "median_gross_rent": 990,
+      "acs_unemployment_rate": 4.6,
+      "rent_to_income_pct": 20.09,
+      "issue_priorities": {
+        "Economy": 0.794,
+        "Cost of living": 0.756,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "MO": {
+      "name": "Missouri",
+      "ev": 10,
+      "dem_margin_2024": -18.4,
+      "median_household_income": 71589,
+      "median_gross_rent": 1067,
+      "acs_unemployment_rate": 3.25,
+      "rent_to_income_pct": 17.89,
+      "issue_priorities": {
+        "Economy": 0.594,
+        "Cost of living": 0.561,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "MT": {
+      "name": "Montana",
+      "ev": 4,
+      "dem_margin_2024": -19.9,
+      "median_household_income": 75340,
+      "median_gross_rent": 1177,
+      "acs_unemployment_rate": 2.96,
+      "rent_to_income_pct": 18.75,
+      "issue_priorities": {
+        "Economy": 0.564,
+        "Cost of living": 0.582,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "NE": {
+      "name": "Nebraska",
+      "ev": 5,
+      "dem_margin_2024": -20.5,
+      "median_household_income": 76376,
+      "median_gross_rent": 1102,
+      "acs_unemployment_rate": 3.4,
+      "rent_to_income_pct": 17.31,
+      "issue_priorities": {
+        "Economy": 0.55,
+        "Cost of living": 0.5,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "NV": {
+      "name": "Nevada",
+      "ev": 6,
+      "dem_margin_2024": -3.1,
+      "median_household_income": 81134,
+      "median_gross_rent": 1709,
+      "acs_unemployment_rate": 6.28,
+      "rent_to_income_pct": 25.28,
+      "issue_priorities": {
+        "Economy": 0.828,
+        "Cost of living": 0.857,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "NH": {
+      "name": "New Hampshire",
+      "ev": 4,
+      "dem_margin_2024": 2.8,
+      "median_household_income": 99782,
+      "median_gross_rent": 1558,
+      "acs_unemployment_rate": 2.78,
+      "rent_to_income_pct": 18.74,
+      "issue_priorities": {
+        "Economy": 0.431,
+        "Cost of living": 0.487,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Healthcare",
+        "Cost of living",
+        "Immigration"
+      ],
+      "data_confidence": 0.72
+    },
+    "NJ": {
+      "name": "New Jersey",
+      "ev": 14,
+      "dem_margin_2024": 5.9,
+      "median_household_income": 104294,
+      "median_gross_rent": 1800,
+      "acs_unemployment_rate": 5.41,
+      "rent_to_income_pct": 20.71,
+      "issue_priorities": {
+        "Economy": 0.682,
+        "Cost of living": 0.656,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "NM": {
+      "name": "New Mexico",
+      "ev": 5,
+      "dem_margin_2024": 6.0,
+      "median_household_income": 67816,
+      "median_gross_rent": 1117,
+      "acs_unemployment_rate": 5.27,
+      "rent_to_income_pct": 19.77,
+      "issue_priorities": {
+        "Economy": 0.826,
+        "Cost of living": 0.728,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "NY": {
+      "name": "New York",
+      "ev": 28,
+      "dem_margin_2024": 12.6,
+      "median_household_income": 85820,
+      "median_gross_rent": 1634,
+      "acs_unemployment_rate": 5.32,
+      "rent_to_income_pct": 22.85,
+      "issue_priorities": {
+        "Economy": 0.764,
+        "Cost of living": 0.8,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "NC": {
+      "name": "North Carolina",
+      "ev": 16,
+      "dem_margin_2024": -3.2,
+      "median_household_income": 73958,
+      "median_gross_rent": 1338,
+      "acs_unemployment_rate": 3.99,
+      "rent_to_income_pct": 21.71,
+      "issue_priorities": {
+        "Economy": 0.698,
+        "Cost of living": 0.785,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "ND": {
+      "name": "North Dakota",
+      "ev": 3,
+      "dem_margin_2024": -36.5,
+      "median_household_income": 77871,
+      "median_gross_rent": 980,
+      "acs_unemployment_rate": 1.91,
+      "rent_to_income_pct": 15.1,
+      "issue_priorities": {
+        "Economy": 0.461,
+        "Cost of living": 0.432,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Healthcare",
+        "Economy",
+        "Immigration"
+      ],
+      "data_confidence": 0.72
+    },
+    "OH": {
+      "name": "Ohio",
+      "ev": 17,
+      "dem_margin_2024": -11.2,
+      "median_household_income": 72212,
+      "median_gross_rent": 1090,
+      "acs_unemployment_rate": 3.99,
+      "rent_to_income_pct": 18.11,
+      "issue_priorities": {
+        "Economy": 0.645,
+        "Cost of living": 0.58,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "OK": {
+      "name": "Oklahoma",
+      "ev": 7,
+      "dem_margin_2024": -34.3,
+      "median_household_income": 66148,
+      "median_gross_rent": 1044,
+      "acs_unemployment_rate": 4.68,
+      "rent_to_income_pct": 18.94,
+      "issue_priorities": {
+        "Economy": 0.755,
+        "Cost of living": 0.652,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "OR": {
+      "name": "Oregon",
+      "ev": 8,
+      "dem_margin_2024": 14.3,
+      "median_household_income": 85220,
+      "median_gross_rent": 1597,
+      "acs_unemployment_rate": 4.85,
+      "rent_to_income_pct": 22.49,
+      "issue_priorities": {
+        "Economy": 0.713,
+        "Cost of living": 0.769,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "PA": {
+      "name": "Pennsylvania",
+      "ev": 19,
+      "dem_margin_2024": -1.7,
+      "median_household_income": 77545,
+      "median_gross_rent": 1252,
+      "acs_unemployment_rate": 4.35,
+      "rent_to_income_pct": 19.37,
+      "issue_priorities": {
+        "Economy": 0.661,
+        "Cost of living": 0.645,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "RI": {
+      "name": "Rhode Island",
+      "ev": 4,
+      "dem_margin_2024": 13.8,
+      "median_household_income": 83504,
+      "median_gross_rent": 1418,
+      "acs_unemployment_rate": 5.04,
+      "rent_to_income_pct": 20.38,
+      "issue_priorities": {
+        "Economy": 0.708,
+        "Cost of living": 0.678,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "SC": {
+      "name": "South Carolina",
+      "ev": 9,
+      "dem_margin_2024": -17.9,
+      "median_household_income": 72350,
+      "median_gross_rent": 1272,
+      "acs_unemployment_rate": 4.5,
+      "rent_to_income_pct": 21.1,
+      "issue_priorities": {
+        "Economy": 0.742,
+        "Cost of living": 0.764,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "SD": {
+      "name": "South Dakota",
+      "ev": 3,
+      "dem_margin_2024": -29.2,
+      "median_household_income": 76881,
+      "median_gross_rent": 999,
+      "acs_unemployment_rate": 2.81,
+      "rent_to_income_pct": 15.59,
+      "issue_priorities": {
+        "Economy": 0.503,
+        "Cost of living": 0.464,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Healthcare",
+        "Cost of living"
+      ],
+      "data_confidence": 0.72
+    },
+    "TN": {
+      "name": "Tennessee",
+      "ev": 11,
+      "dem_margin_2024": -29.7,
+      "median_household_income": 71997,
+      "median_gross_rent": 1284,
+      "acs_unemployment_rate": 4.23,
+      "rent_to_income_pct": 21.4,
+      "issue_priorities": {
+        "Economy": 0.731,
+        "Cost of living": 0.786,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "TX": {
+      "name": "Texas",
+      "ev": 40,
+      "dem_margin_2024": -13.7,
+      "median_household_income": 79721,
+      "median_gross_rent": 1475,
+      "acs_unemployment_rate": 4.83,
+      "rent_to_income_pct": 22.2,
+      "issue_priorities": {
+        "Economy": 0.738,
+        "Cost of living": 0.784,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "UT": {
+      "name": "Utah",
+      "ev": 6,
+      "dem_margin_2024": -21.6,
+      "median_household_income": 96658,
+      "median_gross_rent": 1593,
+      "acs_unemployment_rate": 3.78,
+      "rent_to_income_pct": 19.78,
+      "issue_priorities": {
+        "Economy": 0.541,
+        "Cost of living": 0.603,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "VT": {
+      "name": "Vermont",
+      "ev": 3,
+      "dem_margin_2024": 31.4,
+      "median_household_income": 82730,
+      "median_gross_rent": 1319,
+      "acs_unemployment_rate": 2.67,
+      "rent_to_income_pct": 19.13,
+      "issue_priorities": {
+        "Economy": 0.488,
+        "Cost of living": 0.569,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Healthcare",
+        "Economy"
+      ],
+      "data_confidence": 0.72
+    },
+    "VA": {
+      "name": "Virginia",
+      "ev": 13,
+      "dem_margin_2024": 5.8,
+      "median_household_income": 92090,
+      "median_gross_rent": 1646,
+      "acs_unemployment_rate": 3.62,
+      "rent_to_income_pct": 21.45,
+      "issue_priorities": {
+        "Economy": 0.56,
+        "Cost of living": 0.699,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "WA": {
+      "name": "Washington",
+      "ev": 12,
+      "dem_margin_2024": 18.2,
+      "median_household_income": 99389,
+      "median_gross_rent": 1824,
+      "acs_unemployment_rate": 4.87,
+      "rent_to_income_pct": 22.02,
+      "issue_priorities": {
+        "Economy": 0.682,
+        "Cost of living": 0.73,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Cost of living",
+        "Economy",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "WV": {
+      "name": "West Virginia",
+      "ev": 4,
+      "dem_margin_2024": -41.9,
+      "median_household_income": 60798,
+      "median_gross_rent": 883,
+      "acs_unemployment_rate": 4.63,
+      "rent_to_income_pct": 17.43,
+      "issue_priorities": {
+        "Economy": 0.743,
+        "Cost of living": 0.586,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "WI": {
+      "name": "Wisconsin",
+      "ev": 10,
+      "dem_margin_2024": -0.9,
+      "median_household_income": 77488,
+      "median_gross_rent": 1142,
+      "acs_unemployment_rate": 3.05,
+      "rent_to_income_pct": 17.69,
+      "issue_priorities": {
+        "Economy": 0.521,
+        "Cost of living": 0.502,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Cost of living",
+        "Healthcare"
+      ],
+      "data_confidence": 0.72
+    },
+    "WY": {
+      "name": "Wyoming",
+      "ev": 3,
+      "dem_margin_2024": -45.8,
+      "median_household_income": 75532,
+      "median_gross_rent": 998,
+      "acs_unemployment_rate": 3.43,
+      "rent_to_income_pct": 15.86,
+      "issue_priorities": {
+        "Economy": 0.555,
+        "Cost of living": 0.489,
+        "Healthcare": 0.5,
+        "Immigration": 0.45,
+        "Public safety": 0.45,
+        "Foreign policy": 0.3,
+        "Character/leadership": 0.45,
+        "Democracy/institutions": 0.4
+      },
+      "top_issues": [
+        "Economy",
+        "Healthcare",
+        "Cost of living"
+      ],
+      "data_confidence": 0.72
+    }
+  }
+}

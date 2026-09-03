@@ -1,0 +1,28 @@
+ElectionLab 0.11 -> 0.11.1
+============================
+
+1. CLOSE ElectionLab before updating.
+2. Extract ElectionLab_v0_11_1.zip somewhere temporary.
+3. Run Update_Existing_Install.bat from the extracted 0.11.1 folder.
+4. Enter your existing ElectionLab install folder.
+5. Launch ElectionLab normally.
+6. Main Menu should show: Pre-1.0 build 0.11.1 · map compositor hotfix
+
+PRESERVED
+---------
+- portable_config.json and external data-root selection
+- .venv
+- Knowledge Vault / researched and custom profiles
+- cached portraits
+- campaign saves / branches / rulesets
+- saved quick-election results
+- provider settings and API key storage
+- research cache and logs
+
+WHAT CHANGED
+------------
+- The visible geographic map no longer stitches cropped state tiles.
+- One canonical state-index raster is recolored dynamically and shares geometry with hit testing.
+- State borders come from one clean full-map raster generated directly from the source SVG.
+- Main Menu displays Data & Sources correctly (no underscore-looking mnemonic artifact).
+- Old map-raster assets are replaced; no save/data migration is needed.
