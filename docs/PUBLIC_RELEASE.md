@@ -25,7 +25,7 @@ This repository is prepared for public source review and Windows source-based in
 
 The 2024 state-context data is derived from U.S. Census Bureau ACS tables listed in `electionlab/data/state_context_2024.json`. ElectionLab converts some official indicators into gameplay issue-priority heuristics; those derived values are not polling.
 
-The U.S. map geometry is documented in `docs/MAP_SOURCE_NOTE.md` as a user-supplied SVG adapted for ElectionLab. The runtime raster files are generated from that geometry and are required by the current map renderer. Before a formal open-source release or third-party asset redistribution, confirm the original SVG's license/provenance or replace it with a clearly licensed map source and regenerate the runtime assets.
+The U.S. map geometry is documented in `docs/MAP_SOURCE_NOTE.md` as an ElectionLab asset created by the project owner with ChatGPT assistance. The runtime raster files are generated from that geometry and are required by the current map renderer. If the map is regenerated or replaced later, keep the source SVG and generated runtime assets together so public releases retain clear provenance.
 
 No commercial game assets, local AI model files, downloaded portraits or personal save data are included.
 

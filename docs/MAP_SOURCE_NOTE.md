@@ -1,6 +1,6 @@
 # Geographic map implementation note — 0.10
 
-The U.S. election map geometry originated from the SVG supplied by the user for ElectionLab 0.3.5. The original SVG remains bundled as `electionlab/data/us_map_source.svg`, with parsed geometry retained in `us_map_paths.json` for provenance/testing.
+The U.S. election map geometry was created for ElectionLab by the project owner with ChatGPT assistance for ElectionLab 0.3.5. The generated source SVG remains bundled as `electionlab/data/us_map_source.svg`, with parsed geometry retained in `us_map_paths.json` for provenance/testing.
 
 ## 0.10 runtime change
 Earlier builds converted the detailed SVG paths into Qt `QPainterPath` objects at runtime. Even after caching and raster hit-testing, Windows could spend tens of seconds transforming, stroking, or painting some of the extremely detailed paths.
