@@ -1,0 +1,29 @@
+ElectionLab 0.4 -> 0.5
+========================
+
+1. CLOSE ElectionLab before updating.
+2. Extract the ElectionLab_v0_5 folder.
+3. Run Update_Existing_Install.bat from the extracted 0.5 folder.
+4. Enter the path to your existing ElectionLab installation.
+5. Let the dependency update finish. 0.5 adds certifi for verified HTTPS portrait/profile downloads.
+6. Launch your existing ElectionLab install normally.
+
+Preserved:
+- portable_config.json
+- your selected external data root
+- .venv (updated in place)
+- Knowledge Vault database
+- deleted-profile tombstones
+- cached portraits
+- researched/custom profiles
+- campaign saves and branches
+- research cache
+
+Campaign-save migration:
+- 0.5 adds a campaign milestone schedule automatically.
+- Future scheduled debates become normal upcoming events.
+- Debate dates already passed in an older save are marked "missed" rather than forcing the save backward.
+- Your existing campaign seed is preserved.
+
+Important seed change:
+0.4 incorrectly included each save file's hidden UUID in campaign randomness. 0.5 removes that hidden value. From 0.5 forward, identical campaign setup + identical visible seed + identical decisions reproduce the same random sequence. Existing campaigns may therefore produce a different *future* sequence than 0.4 would have, but the new behavior is the intended reproducible behavior.

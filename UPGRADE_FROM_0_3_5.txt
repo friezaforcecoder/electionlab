@@ -1,0 +1,21 @@
+ElectionLab 0.3.5 -> 0.4
+==========================
+
+1. CLOSE ElectionLab.
+2. Extract the ElectionLab 0.4 folder.
+3. Run Update_Existing_Install.bat from the 0.4 folder.
+4. Enter the path to your EXISTING ElectionLab installation.
+5. Reopen ElectionLab from the existing install folder.
+
+Preserved:
+- portable_config.json
+- external ElectionLabData root
+- Knowledge Vault / researched people
+- existing campaign saves and branches
+- .venv
+- caches and local data
+
+0.4 migrates the existing SQLite Vault in-place to add portrait metadata.
+No reset is required.
+
+Provider toggles now apply immediately. If OpenAI is enabled, check Settings -> Provider status to confirm a key is actually stored. Local AI can be tested from the same panel.

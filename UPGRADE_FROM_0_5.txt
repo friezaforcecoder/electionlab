@@ -1,0 +1,25 @@
+ElectionLab 0.5 -> 0.6
+=======================
+
+1. CLOSE ElectionLab before updating.
+2. Extract ElectionLab_v0_6.zip.
+3. Run Update_Existing_Install.bat from the extracted 0.6 folder.
+4. Enter the folder containing your existing ElectionLab app.py.
+5. Let the dependency/update step finish.
+6. Launch ElectionLab normally from your existing install folder.
+
+Preserved:
+- portable_config.json
+- selected external ElectionLabData root
+- Knowledge Vault profiles and portrait cache
+- researched/custom people
+- campaign saves and branches
+- .venv
+
+Existing campaigns are upgraded in place. The first time a campaign is opened in 0.6 it gains a persistent state_opinion structure for all 50 states + D.C. Existing historical timeline entries are not rewritten.
+
+If Local AI says Ollama cannot be found:
+Settings -> Local AI / Ollama -> Ollama executable -> Browse...
+Select your actual ollama.exe, then press Test / Start Local AI.
+
+Election simulations do NOT require Ollama or OpenAI. Those providers are optional for natural-language AI features.

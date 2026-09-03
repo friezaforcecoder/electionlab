@@ -1,0 +1,12 @@
+ElectionLab 0.1 -> 0.3.5
+========================
+
+1. CLOSE ElectionLab first.
+2. Extract the complete 0.3.5 download.
+3. Run Update_Existing_Install.bat from the extracted 0.3.5 folder.
+4. Point it at your existing ElectionLab folder.
+5. Reopen ElectionLab and verify the footer says "Pre-1.0 build 0.3.5 · geographic map".
+6. Run Core_Self_Test.bat once.
+
+The updater preserves your .venv, portable_config.json, ElectionLabData,
+Knowledge Vault, saves, campaign timelines, research cache, and external data root.

@@ -1,0 +1,27 @@
+ElectionLab -> 0.3.5
+====================
+
+This update is safe to apply directly from 0.1, 0.2, or 0.3.
+
+1. CLOSE ElectionLab first.
+2. Extract the complete 0.3.5 download.
+3. Run Update_Existing_Install.bat from the extracted 0.3.5 folder.
+4. Point it at your existing ElectionLab application folder.
+5. Reopen ElectionLab and verify the footer says:
+   Pre-1.0 build 0.3.5 · geographic map
+6. Run an election and confirm the results screen shows the geographic U.S. map.
+
+The updater preserves:
+- portable_config.json
+- .venv
+- ElectionLabData
+- Knowledge Vault profiles
+- campaign saves/timelines
+- research cache
+- your selected external data root
+
+0.3.5 does not intentionally migrate or rewrite your campaign/database schema.
+
+Pre-1.0 still uses helper BAT files. The release target remains a normal
+ElectionLab.exe + installer/updater with no console window, while large models
+and mutable data remain placeable on F:/D:/another drive.

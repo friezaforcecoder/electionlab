@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local virtual environments and package/build output
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+*.spec
+
+# ElectionLab private/runtime state
+portable_config.json
+ElectionLabData/
+KnowledgeVault/
+Campaigns/
+Saves/
+ResearchCache/
+Models/
+DataPacks/
+Extensions/
+Exports/
+Logs/
+latest_session.log
+crash_*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Installer/cache leftovers
+.pip-cache/
+.install-temp/
+*.zip
+*.7z
+*.msi
+*.exe
+
+# Secrets and local overrides
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
